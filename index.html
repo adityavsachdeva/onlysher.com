@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title> Sher. </title>
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 		<style>
 			html,body{
@@ -13,16 +14,37 @@
 				display:flex;
 				justify-content:center;
 				align-items:center;
+				flex-direction:column;
+				animation:fade 1000ms;
 			}
 			.title{
-				font-size:80px;	
+				font-size:60px;	
+				color:#000;
+			}
+			.subtitle{
+				margin-top:-10px;
+			}
+			.subtitle a{
+				font-size:12px;
+				color:red;
+			}
+			@keyframes fade{
+				0%{
+					opacity:0;
+				}
+				100%{
+					opacity:1;
+				}
 			}
 		</style>
 	</head>
 	<body>
 		<div class = "container">
 			<div class = "title">
-				SHER.
+				sher.
+			</div>
+			<div class = "subtitle">
+				<a href = "https://instagram.com/onlysher_">collection coming soon</a>
 			</div>
 		</div>
 	</body>
