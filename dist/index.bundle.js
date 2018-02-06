@@ -69,7 +69,10 @@
 
 __webpack_require__(1);
 
-document.getElementsByClassName('background')[0].style.left = "0";
+window.onload = function(){
+	document.getElementsByClassName('background')[0].style.left = "0";
+}
+
 
 
 
